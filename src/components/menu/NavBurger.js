@@ -1,19 +1,26 @@
 import React from 'react';
-import {Link} from 'react-router-dom'; 
+import {Navbar, Nav, NavDropdown} from 'react-bootstrap'; 
 import burgerIcon from './../../assets/images/burger-menu.svg'; 
 
 function NavBurger() {
 
     return(
-        <div className="btn-group-vertical dropup"> 
-            <button className="btn dropdown-toggle burger-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
-                <img src={burgerIcon} alt="" /> 
-            </button>  
-            <div className="dropdown-menu">
-                <Link to="/" className="dropdown-item">Home</Link>
-                <Link to="/contact" className="dropdown-item">Contact</Link>
-            </div> 
-        </div> 
+        <Navbar expand="lg"> 
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <img src={burgerIcon} alt="" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr.auto">
+                    <NavDropdown title="dropdown" id="basic-nav-dropdown">
+                        <NavDropdown.Item>
+                            <Nav.Link to="/">Home</Nav.Link>
+                        </NavDropdown.Item>
+                        <NavDropdown.Item>
+                            <Nav.Link to="/contact">Contact</Nav.Link>
+                        </NavDropdown.Item>
+                    </NavDropdown>
+                </Nav> 
+            </Navbar.Collapse>
+        </Navbar>
     )
 }
 
