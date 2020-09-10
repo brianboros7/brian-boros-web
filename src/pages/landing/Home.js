@@ -16,8 +16,8 @@ function Home() {
 				            by data
                         </h4>
                         <h5>
-                            hi, I'm Brian Boros! i'm here to work with you
-				            too build, test, <br /> and learn how you can be more accurate
+                            Hi, I'm Brian Boros! i'm here to work with you
+				            too build, test, and learn how we can grow accuratacy
 				            with your go-to-market strategies.
                         </h5>
                     </div> 
