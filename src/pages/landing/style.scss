@@ -1,12 +1,14 @@
+.home {
+    width: 100%; 
+}
 
-.home-main-banner {
-    width: 100%;
-    height: auto; 
-    background-position: center top 1rem;
-    background-repeat: no-repeat;
-    background-size: cover;
+.home-main-banner img {
+    width: 100%; 
+    position: absolute; 
 }
 .hb-content {
+    z-index: 100; 
+    position: absolute; 
     padding: 4rem 1rem; 
 }
 .hb-content h4, h5 {

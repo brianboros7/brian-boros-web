@@ -9,8 +9,11 @@
     text-decoration-style: none; 
     color: white; 
 }
-.nav-item:hover, dropdown-item:hover {
+.nav-item:hover {
     color: gold; 
 }
 
 /* Burger Nav */ 
+#burger-icon, #burger-toggler {
+    background-color: black; 
+}

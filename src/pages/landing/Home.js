@@ -7,8 +7,8 @@ function Home() {
     return(
         <section className="home">
             <div className="home-main"> 
-
-                <div className="home-main-banner" style={{ backgroundImage:`url(${homeBanner})`}} alt="Brian S. Boros in a suit playing Saxophone" > 
+                <div className="home-main-banner"> 
+                    <img src={homeBanner} alt="Brian S. Boros Play Sax" /> 
                     <div className="hb-content">
                         <h4> 
                             let me help you build a

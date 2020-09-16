@@ -1,24 +1,22 @@
 import React from 'react'; 
 import {Link} from 'react-router-dom'; 
-import './style.scss'
+import './style.scss';
+import {Navbar} from 'react-bootstrap'; 
 import logo from '../../assets/images/bsblogo.png'; 
 
 
 function NavBar() {
-    const logoImage = [{id: "1", src: logo, alt: "Brian S. Boros Logo"}]
 
     return(
-        <nav className="navbar"> 
-            <nav className="navigation">
+        <Navbar className="navigation"> 
+            <Navbar.Brand>
                 <Link to="/" className="navbar-brand logo">
-                    {logoImage.map((logo) => (
-                        <img key={logo.id} src={logo.src} alt={logo.alt} /> 
-                    ))}
+                    <img src={logo} alt="logo" /> 
                 </Link>
                 <Link to="/" className="nav-item">Home</Link>
                 <Link to="/contact" className="nav-item">Contact</Link>
-            </nav>
-        </nav> 
+            </Navbar.Brand>
+        </Navbar> 
     )
 }
 
