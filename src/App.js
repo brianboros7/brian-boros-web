@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/App.css';
+import './styles/App.scss';
 import Header from './components/app/header/Header';
 import Home from './pages/landing/Home'; 
 import Contact from './pages/contact/Contact'; 
@@ -13,20 +13,22 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Header /> 
-      <Switch>
-        <Route
-          path="/" exact>
-            <Home /> 
-        </Route>
-        <Route
-          path="/contact">
-              <Contact /> 
-        </Route>
-      </Switch>
-      <Footer /> 
-    </Router>
+    <div className="App">  
+      <Router>
+        <Header /> 
+        <Switch>
+          <Route
+            path="/" exact>
+              <Home /> 
+          </Route>
+          <Route
+            path="/contact">
+                <Contact /> 
+          </Route>
+        </Switch>
+        <Footer /> 
+      </Router>
+    </div> 
   );
 }
 

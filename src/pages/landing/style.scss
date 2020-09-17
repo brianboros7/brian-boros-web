@@ -1,20 +1,24 @@
-.home {
+.home-main-banner {
+    position: relative; 
+}
+.home-main-banner img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
     width: 100%; 
+    height: auto; 
+    z-index: 1;
+}
+.home-main-banner h4 h5 {
+    position: absolute; 
+    top: 100px; 
+    left: 100px; 
+    width: 100%; 
+    z-index: 100;
+    padding: 3rem; 
 }
 
-.home-main-banner img {
-    width: 100%; 
-    position: absolute; 
-}
-.hb-content {
-    z-index: 100; 
-    position: absolute; 
-    padding: 4rem 1rem; 
-}
-.hb-content h4, h5 {
-    padding: 1rem 1em;
-    margin: 1rem 0; 
-}
+/*
 .hb-content h4 {
     text-transform: uppercase;
     text-shadow: 1px 1px lightgray;
@@ -24,3 +28,4 @@
     padding-right: 3.5rem; 
     text-shadow: 2px 2px lightgray;
 }
+*/ 
