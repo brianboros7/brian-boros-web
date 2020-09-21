@@ -1,27 +1,9 @@
 
 .home-main-banner {
     width: 100%; 
-    position: relative; 
 }
 .home-main-banner img {
-    position: relative; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
     max-width: 100%; 
-    height: auto; 
-    z-index: 0;
-}
-.main-banner-content {
-    position: relative; 
-    top: 25px; 
-    left: 25px; 
-    width: 100%;
-    z-index: 1;
-    padding: 1rem 1rem; 
-}
-.main-banner-content h4, .main-banner-content h5 {
-    padding: 1rem 0;
 }
 
 .main-banner-content h4 {
