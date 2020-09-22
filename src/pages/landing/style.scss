@@ -1,17 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
 
-.home-main-banner {
+.home-main {
     width: 100%; 
+    padding: 2rem 0; 
 }
-.home-main-banner img {
-    max-width: 100%; 
-}
+.home-main-content {
+    width: 100%;
 
-.main-banner-content h4 {
-    padding-right: 7.5rem; 
-    text-transform: uppercase;
+    @include media-breakpoint-up(xs) {
+        padding: 1rem 0; 
+        padding-top: 2rem; 
+    }
+    @include media-breakpoint-up(lg) {
+        padding: 6rem 1rem; 
+    }
 }
-.main-banner-content h5 {
-    padding-right: 7.5rem; 
+.home-main-content h4 {
+    text-transform: uppercase;
+
+    @include media-breakpoint-up(lg) {
+        padding-right: 8rem;
+    }
+}
+.home-main-content h5 {
+    width: 100%; 
+
+    @include media-breakpoint-up(lg) {
+        padding-right: 8rem; 
+    }
+}
+.home-main-image {
+    width: 99%; 
+
+    @include media-breakpoint-up(xs) {
+        padding-top: 4.5rem; 
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding: 1rem 1rem;
+        padding-top: 2rem; 
+    }
+}
+.home-main-image img {
+    width: 100%; 
 }
 
 /*
