@@ -4,6 +4,7 @@ import Header from './components/app/header/Header';
 import Home from './pages/landing/Home'; 
 import Portfolio from './pages/portfolio/Portfolio'; 
 import Footer from './components/app/footer/Footer';
+import Contact from './pages/contact/Contact'; 
 
 import { 
   BrowserRouter as Router, 
@@ -24,6 +25,10 @@ function App() {
           <Route
             path="/portfolio">
                 <Portfolio /> 
+          </Route>           >
+          <Route
+            path="/contact">
+              <Contact /> 
           </Route>
         </Switch>
         <Footer /> 
