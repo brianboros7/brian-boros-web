@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/App.scss';
 import Header from './components/app/header/Header';
 import Home from './pages/landing/Home'; 
-import Contact from './pages/contact/Contact'; 
+import Portfolio from './pages/portfolio/Portfolio'; 
 import Footer from './components/app/footer/Footer';
 
 import { 
@@ -22,8 +22,8 @@ function App() {
               <Home /> 
           </Route>
           <Route
-            path="/contact">
-                <Contact /> 
+            path="/portfolio">
+                <Portfolio /> 
           </Route>
         </Switch>
         <Footer /> 

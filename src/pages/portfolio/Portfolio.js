@@ -8,11 +8,11 @@ function Portfolio() {
 
     return(
         <section> 
-            <PportfolioMain /> 
-            <PortfolioWorK /> 
+            <PortfolioMain /> 
+            <PortfolioWork /> 
             <PortfolioFoot /> 
         </section>
     )
 }
 
-export default POrtfolio 
+export default Portfolio 

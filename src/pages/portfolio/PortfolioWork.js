@@ -6,9 +6,11 @@ function PortfolioWork() {
         <section>
             <div> 
                 <div> 
-                    <Dev /> 
+                    Hello
                 </div>
             </div>
         </section>
     )
 }
+
+export default PortfolioWork 

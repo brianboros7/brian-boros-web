@@ -14,7 +14,7 @@ function NavBar() {
                     <img src={logo} alt="logo" /> 
                 </Link>
                 <Link to="/" className="nav-item">Home</Link>
-                <Link to="/contact" className="nav-item">Contact</Link>
+                <Link to="/portfolio" className="nav-item">Portfolio</Link>
             </Navbar.Brand>
         </Navbar> 
     )

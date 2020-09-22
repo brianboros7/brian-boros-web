@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+.portfolio-main-image img {
+    width: 100%; 
+}
+.portfolio-main-content-container { 
+    width: 100%; 
+    font-size: 4rem;
+    text-align: center; 
+}
+.portfolio-main-content-container h2 {
+    text-align: center; 
+}
+.portfolio-main-content { 
+    width: 100%; 
+    text-align: center;    
+    margin: 2.5rem 0;
+}
+.portfolio-main-content div {
+    width: 40rem; 
+}
