@@ -1,7 +1,7 @@
 import React from 'react';
-import {Dropdown} from 'react-bootstrap'; 
+import {Dropdown, Nav} from 'react-bootstrap'; 
 import burgerIcon from './../../assets/images/burger-menu.svg'; 
-
+import {LinkContainer} from 'react-router-bootstrap'; 
 function NavBurger() {
 
     return(
@@ -12,9 +12,15 @@ function NavBurger() {
                 >
                 <img src={burgerIcon} alt="" /> 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="/">Home</Dropdown.Item>
-                    <Dropdown.Item href="/portfolio">Portfolio</Dropdown.Item>
-                    <Dropdown.Item href="/contact">Contact</Dropdown.Item>
+                    <LinkContainer to="/"> 
+                        <Nav.Item>Home</Nav.Item>
+                    </LinkContainer>
+                    <LinkContainer to="/portfolio"> 
+                        <Nav.Item>Portfolio</Nav.Item>
+                    </LinkContainer>
+                    <LinkContainer to="/contact"> 
+                        <Nav.Item>Contact</Nav.Item>
+                    </LinkContainer>
                 </Dropdown.Menu>
             </Dropdown.Toggle>
         </Dropdown>
