@@ -14,7 +14,7 @@ function PortfolioWork() {
                             <Card.Img  src={borosPaintImage}  alt="" /> 
                             <Card.Body>
                                 <Card.Title>
-                                    Boros Paiting Web
+                                    Boros Painting Web
                                 </Card.Title>
                                 <Card.Text>
                                     This is a site I've built for my fathers paitning company.
