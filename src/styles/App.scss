@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 .App {
     background: rgba(255, 255, 255, 0.884);
     background: linear-gradient(176deg, rgba(255, 255, 255, 0.562) 28%, rgba(243, 243, 243, 0.397) 100%);

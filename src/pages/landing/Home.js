@@ -15,8 +15,8 @@ function Home() {
 				        by data
                     </h4>
                     <h5 className="py-2">
-                        Hi, I'm Brian Boros! i'm here to work with you
-				        too build, test, and learn how we can grow our accuracy
+                        Hi, I'm Brian Boros! I'm here to work with you
+				        to build, test, and learn how we can grow our accuracy
 				        with your go-to-market strategies.
                     </h5>
                 </Col> 

@@ -18,3 +18,11 @@
     background-color: black; 
     text-align: right;
 }
+.btn,.dropdown-toggle, .btnprimary:focus,
+.btn-primary:hover, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary { 
+ background-image: none; 
+ background-color: none; 
+} 

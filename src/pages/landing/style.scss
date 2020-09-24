@@ -2,7 +2,7 @@
 
 .home-main {
     width: 100%; 
-    padding: 2rem 0; 
+    padding: 2.5rem 0; 
 }
 .home-main-content {
     width: 100%;
@@ -30,10 +30,10 @@
     }
 }
 .home-main-image {
-    width: 99%; 
+    width: 100%; 
 
     @include media-breakpoint-up(xs) {
-        padding-top: 4.5rem; 
+        padding-top: 5rem; 
     }
 
     @include media-breakpoint-up(lg) {
