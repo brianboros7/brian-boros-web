@@ -1,6 +1,6 @@
 import React from 'react'; 
 import './style.scss'; 
-import {Form, Col} from 'react-bootstrap'; 
+import {Form, Col, Button} from 'react-bootstrap'; 
 
 function Contact() {
     return(
@@ -33,6 +33,9 @@ function Contact() {
                                 <Form.Control as="textarea" rows="3" />
                             </Form.Group>
                         </Form.Row>
+                        <Button variant="primary" type="submit">
+                            Submit
+                        </Button>
                     </Form>
                 </div>
             </div>
