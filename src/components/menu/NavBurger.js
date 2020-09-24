@@ -13,13 +13,13 @@ function NavBurger() {
                 <img src={burgerIcon} alt="" /> 
                 <Dropdown.Menu>
                     <LinkContainer to="/"> 
-                        <Nav.Item>Home</Nav.Item>
+                        <Nav.Link>Home</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/portfolio"> 
-                        <Nav.Item>Portfolio</Nav.Item>
+                        <Nav.Link>Portfolio</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/contact"> 
-                        <Nav.Item>Contact</Nav.Item>
+                        <Nav.Link>Contact</Nav.Link>
                     </LinkContainer>
                 </Dropdown.Menu>
             </Dropdown.Toggle>
