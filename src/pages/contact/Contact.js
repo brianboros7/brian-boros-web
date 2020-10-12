@@ -6,8 +6,8 @@ function Contact() {
     return(
         <section className="contact-container">
             <div className="contact-main">
-                <div class="contact-content">         
-                    <h5 class="border">
+                <div className="contact-content">         
+                    <h5 className="border">
                         Thank you for stopping by to say hello! I thoroughly enjoy hearing from each and every one of you !!
                     </h5>
                 </div> 

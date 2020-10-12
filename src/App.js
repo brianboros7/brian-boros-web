@@ -25,7 +25,7 @@ function App() {
           <Route
             path="/portfolio">
                 <Portfolio /> 
-          </Route>           >
+          </Route>           
           <Route
             path="/contact">
               <Contact /> 
@@ -34,7 +34,7 @@ function App() {
         <Footer /> 
       </Router>
     </div> 
-  );
+  )
 }
 
-export default App;
+export default App
