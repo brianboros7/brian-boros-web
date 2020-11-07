@@ -1,12 +1,21 @@
 footer {
     background-color: black;
-    position: relative; 
+    width: 100%;
+    color: white; 
+    padding: 0;   
 }
 .footer {
-    padding: 0 1rem; 
-    color: white; 
+    width: 100%; 
+    background-color: black;
+    padding: 0; 
 }
-footer p {
-    padding: 0 1rem; 
+.footer p, .burger-icon {
+    display: inline-block;
+    width: 50%; 
+}
+
+.footer p {
     color: white; 
+    float: left; 
+    padding-top: 2%; 
 }

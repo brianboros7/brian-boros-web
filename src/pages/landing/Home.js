@@ -2,11 +2,18 @@ import React from 'react';
 import './style.scss';
 import homeBanner from '../../assets/images/brian-main.png';
 import {Container, Row, Col} from 'react-bootstrap'; 
+import {Helmet} from "react-helmet";
 
 function Home() { 
     
     return(
         <Container className="home-container">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Brian S. Boros | Home </title>
+                <meta name="description" content="A musician who loves Product and Growth Management!" />
+                <link rel="canonical" href="http://briansboros.com" />
+            </Helmet>
             <Row className="home-main"> 
                 <Col xs={7} lg={8} className="home-main-content">
                     <h4 className="py-2"> 

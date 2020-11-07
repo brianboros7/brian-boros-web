@@ -7,9 +7,11 @@ import CopyrightIcon from '@material-ui/icons/Copyright';
 function Footer()  {
 
     return(
-        <footer>             
-            <NavBurger />
-            <p><CopyrightIcon /> All Rights Reserved. Brian Boros Company, LLC.</p> 
+        <footer>   
+            <div className="footer">          
+                <NavBurger />
+                <p><CopyrightIcon /> All Rights Reserved. Brian Boros Company, LLC.</p>
+            </div> 
         </footer>
     )
 }
