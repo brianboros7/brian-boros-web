@@ -10,7 +10,7 @@ function Footer()  {
         <footer>   
             <div className="footer">          
                 <NavBurger />
-                <p><CopyrightIcon /> All Rights Reserved. Brian Boros Company, LLC.</p>
+                <p><CopyrightIcon /> Brian Boros Company </p>
             </div> 
         </footer>
     )
