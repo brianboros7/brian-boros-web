@@ -4,18 +4,18 @@ import './styles/index.css';
 import App from './App';
 import './custom.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FirebaseContext } from './context/firebase';
+import { FirebaseContextProvider } from './context/firebase';
 
 import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
 
-  <FirebaseContext.Provider>
-  // <React.StrictMode>
-    <App />
-  // </React.StrictMode>,
-  </FirebaseContext.Provider>,
+  <FirebaseContextProvider>
+    <React.StrictMode> 
+      <App />
+    </React.StrictMode>,
+  </FirebaseContextProvider>,
   document.getElementById('root')
 );
 
