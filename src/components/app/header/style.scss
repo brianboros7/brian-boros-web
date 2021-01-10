@@ -1,3 +1,6 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./../../../custom.scss";
+
 header { 
-    background-color: black;
+    background-color: $body-bg-border;
 }

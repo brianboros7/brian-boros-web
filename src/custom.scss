@@ -1,5 +1,18 @@
 // Override default variables before the import
+$body-bg: rgba(255, 255, 255, 0.884); 
+$body-bg-border: #0A0A0A; 
+$body-bg-gradient: linear-gradient(176deg, rgba(255, 255, 255, 0.562) 28%, rgba(243, 243, 243, 0.397) 100%);
+$font-dark: #0A0A0A;
+$font-light: rgb(231, 222, 222);  
+$contrast-color: #FBC403; 
+$background: #FBFCD4; 
+$contrast: #FFDD03; 
 
+
+$theme-colors: (
+    "primary": #0074d9,
+    "danger": #ff4136
+);
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';

@@ -1,3 +1,6 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./../../custom.scss";
+
 .logo {
     width: 8rem; 
 }
@@ -7,15 +10,15 @@
 .nav-item {
     padding: 0 1em; 
     text-decoration-style: none; 
-    color: white; 
+    color: $font-light; 
 }
 .nav-item:hover {
-    color: gold; 
+    color: $contrast-color; 
 }
 
 /* Burger Nav */ 
 #burger-icon, #burger-toggler {
-    background-color: black; 
+    background-color: $body-bg-border; 
     border: none; 
     text-align: right;
 }

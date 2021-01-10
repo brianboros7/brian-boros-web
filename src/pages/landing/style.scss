@@ -1,8 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./../../custom.scss"; 
 
 .home-main {
     width: 100%; 
     padding: 2.5rem 0; 
+    color: $font-dark; 
 
     @include media-breakpoint-up(md) {
         padding-bottom: 5rem;
@@ -17,6 +19,7 @@
 }
 .home-main-content {
     width: 100%;
+    color: $font-dark; 
 
     @include media-breakpoint-up(xs) {
         padding: 2.5rem 0; 
